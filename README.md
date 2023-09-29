@@ -35,10 +35,14 @@ import VueRlottie from 'vue-rlottie'
 | loop | Boolean | default = true |
 | autoPlay | Boolean | default = true |
 
+####
+
 | **attribute** | **Name** |
 |:--|:-:|
 | totalFrame | Number |
 | currentFrame | Number |
+
+####
 
 | **Listener** | **params** |
 |:--|:-:|
@@ -47,6 +51,8 @@ import VueRlottie from 'vue-rlottie'
 | onStop | name: string |
 | onDestroy | name: string |
 | onLoaded | name: string |
+
+####
 
 | **Function** | **params** | **description** |
 |:--|:-:|:-:|
