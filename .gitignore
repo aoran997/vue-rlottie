@@ -10,7 +10,6 @@ lerna-debug.log*
 .history
 .vscode
 node_modules
-dist
 dist-ssr
 *.local
 
