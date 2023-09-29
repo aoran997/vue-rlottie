@@ -1,0 +1,45 @@
+{
+  "name": "vue-rlottie",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": "aoran997 (https://github.com/aoran997)",
+  "keywords": [
+    "vue",
+    "rlottie",
+    "lottie",
+    "vue.js",
+    "plugin"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-rlottie.umd.cjs",
+  "module": "./dist/vue-rlottie.js",
+  "exports": {
+    ".": {
+      "types": "./dist/vue-rlottie.d.ts",
+      "import": "./dist/vue-rlottie.js",
+      "require": "./dist/vue-rlottie.umd.cjs"
+    }
+  },
+  "repository": "https://github.com/aoran997/vue-rlottie",
+  "bugs": "https://github.com/aoran997/vue-rlottie/issues",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit --skipLibCheck &&  vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.6.0",
+    "vue-tsc": "^1.8.5"
+  }
+}
