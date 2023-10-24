@@ -1,7 +1,7 @@
 {
   "name": "vue-rlottie",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "license": "MIT",
   "author": "aoran997 (https://github.com/aoran997)",
@@ -10,7 +10,10 @@
     "rlottie",
     "lottie",
     "vue.js",
-    "plugin"
+    "plugin",
+    "vue-lottie",
+    "web-lottie",
+    "vue-rlottie"
   ],
   "files": [
     "dist"
